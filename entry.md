@@ -34,6 +34,19 @@
 * 데이터 다듬기
  * 필요 없는 데이터는 삭제합니다. 
  * 비워진 데이터는 값을 넣어주거나 열 또는 행을 삭제합니다.
+* 2019년 1월부터 12일까지 데이터만 남깁니다.   
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/987b0c36-4a67-4eb7-a1f9-3c983435e3b5)
+* 데이터 시각화하기
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/8e41a5a4-0ddf-42fa-b048-cd199473b615)
+* 7월에 비가 가장 많이 내리는 지역은 어디일까요?
+* 강수량에 따라 비 피하는 엔트리 프로그램 만들기
+* http://naver.me/GROaMh1N
+* 맑은 장면에서 비가 오는 장면으로 바뀝니다.
+* 클릭을 계속하면 지역마다 강수량이 나옵니다.
+* 클릭을 최대한 빨리하는 게임입니다.
+* ![image](https://github.com/jerrytohub/heinstein/assets/127598703/b7a93673-045f-4c46-92c6-f3d3197ebaf8)
+* 단계마다 지역 이름이 바뀝니다.
+
 
 
 
