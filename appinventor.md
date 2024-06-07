@@ -50,12 +50,21 @@
 ![image](https://github.com/jerrytohub/heinstein/assets/127598703/56adfec8-fda8-45e7-978b-ef68a4bd0965)
 ![image](https://github.com/jerrytohub/heinstein/assets/127598703/b6525a56-1694-4de1-b768-727e7d234c25)
 ![image](https://github.com/jerrytohub/heinstein/assets/127598703/626d2690-062a-44a2-9670-feb973dcfb39)
+* 컴포넌트의 이름을 잘 정해야 코딩할 때 편합니다.   
 ![image](https://github.com/jerrytohub/heinstein/assets/127598703/0afd8aa9-c97b-45fe-9963-0c639bd137db)
+* 부모 요소에 맞추면 부모의 크기가 맞게 최대한 커집니다. 
 ![image](https://github.com/jerrytohub/heinstein/assets/127598703/4ad0167a-7193-420c-a2a4-cee18361d56f)
 ![image](https://github.com/jerrytohub/heinstein/assets/127598703/1b991e56-9b43-448d-a8cc-a3e0ed2e4480)
+* 코딩할 때는 컴포넌트를 선택하고 코딩합니다.
+* 컴포넌트마다 사용할 수 있는 블록이 달라집니다.
+* 키보드로 입력해서 원하는 블록을 찾을 수 있습니다.
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/a8477907-b4d5-4c17-be94-2e1762f2d477)
 ![image](https://github.com/jerrytohub/heinstein/assets/127598703/ee6dc229-1e46-4db3-89bf-22de786b70c8)
 ![image](https://github.com/jerrytohub/heinstein/assets/127598703/19d75d1a-423b-49fe-942d-bbeaf5cef1b8)
-* 다 만들면 apk로 빌드하고 QR 코드를 찍어서 스마트폰에 앱을 설치할 수 있습니다.
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/713cf51b-6076-4d6f-b98d-54f0aa033e77)
+* 노트북과 스마트폰이 같은 와이파이를 사용하는 경우 AI 컴패니언을 사용해서 확인을 쉽게 할 수 있습니다.
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/a3616094-e8a1-49b6-b932-4c6de49d80f3)
+* 와이파이 사용이 어려운 경우 apk로 빌드하고 QR 코드를 찍어서 스마트폰에 앱을 설치할 수 있습니다.
 ![image](https://github.com/jerrytohub/heinstein/assets/127598703/75cf9af9-7691-4c05-a264-792027993811)
 
 
