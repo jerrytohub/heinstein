@@ -133,3 +133,49 @@
 * 다른 사진을 업로드합니다.   
 ![image](https://github.com/jerrytohub/heinstein/assets/127598703/7d50eaa0-37bb-4592-8ec7-feb83f91a085)
 ![image](https://github.com/jerrytohub/heinstein/assets/127598703/cb6a86fd-a7f1-441a-84d6-345ad845283e)
+
+# 미세먼지 그래프 앱 만들기
+* 미세먼지 데이터를 검색해서 사이트에 들어갑니다.   
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/b7345ee4-6e5d-474a-8b89-5e9910a18093)
+* 실시간 대기정보 > 우리동네 대기정보를 클릭합니다.
+* 주소를 검색합니다.
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/4f5d928c-ae7a-4774-8177-3d2094125ec4)
+* 엑셀 데이터를 다운로드합니다.   
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/5f1e64e5-2378-4e14-b5dc-c70b9411c2f2)
+* 구글 스프레드시트를 실행합니다.   
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/aefc0341-cdcf-4ffd-a535-eb5bceea4cb1)
+* 일반 텍스트로 바꿉니다.   
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/395c39ec-32fc-4ea0-9c7f-fb3d9bb48d40)
+* 첫 행을 지웁니다.   
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/c8bf4cea-7604-4a3a-a32e-d121007287d4)
+* 구글 스프레드시트를 공유합니다.   
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/c726588d-052b-4aea-9243-68d154e833fd)
+* 프로젝트를 만듭니다.   
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/367f254d-3a4f-475c-b619-a118fb9c29be)
+* ChartMaker를 선택합니다.
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/9972af14-cae3-421b-a9a9-e98731d01188)
+* aix 파일을 다운로드합니다.
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/94af6f15-5ab5-4dcc-b3e7-952d509d9929)
+* 확장기능을 추가하고 aix 파일을 업로드해서 import합니다.
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/cf546e04-cf56-45f3-bd00-2db1867d3cbe)
+* 컴포넌트를 추가합니다.
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/598fc953-9cca-427b-9465-3d8fcf1ab41e)
+* 속성을 바꿉니다.
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/6f1d60bd-3a72-4fa7-aede-8805073273a4)
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/7f53f12a-288e-4dbb-8839-2760c965fc30)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
