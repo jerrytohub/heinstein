@@ -45,6 +45,25 @@
   * 추가한 컴포넌트에 따라서 사용할 수 있는 블록이 달라집니다.
 
 # 밝기 측정 앱 만들기
+* LightSensor의 값에 따라서 모양과 메시지가 달라지는 앱입니다. 
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/c3f849a6-5fd0-406f-8866-80dbffbbab5f)
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/56adfec8-fda8-45e7-978b-ef68a4bd0965)
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/b6525a56-1694-4de1-b768-727e7d234c25)
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/626d2690-062a-44a2-9670-feb973dcfb39)
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/0afd8aa9-c97b-45fe-9963-0c639bd137db)
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/4ad0167a-7193-420c-a2a4-cee18361d56f)
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/1b991e56-9b43-448d-a8cc-a3e0ed2e4480)
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/ee6dc229-1e46-4db3-89bf-22de786b70c8)
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/19d75d1a-423b-49fe-942d-bbeaf5cef1b8)
+* 다 만들면 apk로 빌드하고 QR 코드를 찍어서 스마트폰에 앱을 설치할 수 있습니다.
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/75cf9af9-7691-4c05-a264-792027993811)
+
+
+
+
+
+
+
 
 
 
