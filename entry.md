@@ -23,6 +23,7 @@
 * 가장 기온이 높을 때는 언제인가요?
 ![image](https://github.com/jerrytohub/heinstein/assets/127598703/f099415f-87ae-4a1d-b942-8cf31c67e0b7)
 * 적용하기를 클릭하고 다앙한 블록을 사용해서 코딩할 수 있습니다.
+* 블록을 사용해서 데이터를 읽어보세요.
 ![image](https://github.com/jerrytohub/heinstein/assets/127598703/47883fdb-b7ad-487f-a0a7-1715e7c4224a)
 
 # 월전체 강수량 데이터
@@ -46,6 +47,7 @@
 * 클릭을 최대한 빨리하는 게임입니다.   
 ![image](https://github.com/jerrytohub/heinstein/assets/127598703/b7a93673-045f-4c46-92c6-f3d3197ebaf8)
 * 단계마다 지역 이름이 바뀝니다.
+* 리스트를 사용해서 각 지역의 강수량을 순서대로 말하는 프로그램을 만듭니다.
 
 
 
