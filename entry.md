@@ -43,8 +43,8 @@
 * http://naver.me/GROaMh1N
 * 맑은 장면에서 비가 오는 장면으로 바뀝니다.
 * 클릭을 계속하면 지역마다 강수량이 나옵니다.
-* 클릭을 최대한 빨리하는 게임입니다.
-* ![image](https://github.com/jerrytohub/heinstein/assets/127598703/b7a93673-045f-4c46-92c6-f3d3197ebaf8)
+* 클릭을 최대한 빨리하는 게임입니다.   
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/b7a93673-045f-4c46-92c6-f3d3197ebaf8)
 * 단계마다 지역 이름이 바뀝니다.
 
 
