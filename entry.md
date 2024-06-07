@@ -3,8 +3,20 @@
 * 데이터와 데이터 과학의 단계 이해하기
 * 계절별 기온 데이터로 데이터의 변화 파악하기
 * 월전체 강수량 데이터로 비가 가장 많이 오는 지역 파악하기
+* 신발 사이즈 예측하기
+  * 데이터 다듬기
+  * 지도학습하기(분류) : 테이블의 숫자 데이터를 가장 가까운 이웃(K개)을 기준으로 각각의 클래스로 분류하는 모델을 학습
+* 우리나라 인구수 예측하기
+  * 데이터 다듬기
+  * 선형 회귀 모델
+* 데이터 윤리교육
+* 데이터를 수집해서 프로그램 만들기
+* 만든 프로그램 발표회
 
 # 계절별 기온 데이터
+* 데이터 과학의 단계를 이해합니다.
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/01c14f5b-3066-4e67-b8a8-7be3bc9e66c3)
+* 계절별 기온 데이터를 가져옵니다.
 ![image](https://github.com/jerrytohub/heinstein/assets/127598703/514726bd-a779-46b2-a967-fa2b20432ed9)
 ![image](https://github.com/jerrytohub/heinstein/assets/127598703/1a4c0906-fc77-467f-8e07-5c49788e1b6b)
 ![image](https://github.com/jerrytohub/heinstein/assets/127598703/80e8d01b-26ee-4ec8-9f64-d2a9e05613b1)
@@ -40,8 +52,7 @@
 * 데이터 시각화하기
 ![image](https://github.com/jerrytohub/heinstein/assets/127598703/8e41a5a4-0ddf-42fa-b048-cd199473b615)
 * 7월에 비가 가장 많이 내리는 지역은 어디일까요?
-* 강수량에 따라 비 피하는 엔트리 프로그램 만들기
-* http://naver.me/GROaMh1N
+* 강수량에 따라 비 피하는 엔트리 프로그램 만들기 : http://naver.me/GROaMh1N
 * 맑은 장면에서 비가 오는 장면으로 바뀝니다.
 * 클릭을 계속하면 지역마다 강수량이 나옵니다.
 * 클릭을 최대한 빨리하는 게임입니다.   
@@ -49,15 +60,112 @@
 * 단계마다 지역 이름이 바뀝니다.
 * 리스트를 사용해서 각 지역의 강수량을 순서대로 말하는 프로그램을 만듭니다.
 
+# 신발 사이즈 예측하기
+* 인공지능 모델의 종류를 이해합니다.   
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/0d944efa-a6f6-4a0d-bc5c-896d528d08b6)
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/544cf43e-b9f9-4666-a50e-f5aee5de3bd8)
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/43cae85a-325c-4bea-b7cc-a5aa31385f7b)
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/33683cde-7c27-4528-8015-ecbb441807c1)
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/a579f7cc-6682-4aa1-9f5c-a13a1585f8c9)
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/92abdb7d-de9d-45c2-8467-c788ab73c8dc)
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/a5cee2b4-bcd0-41ff-b698-2e5275c2d7cf)
+* https://sizekorea.kr/ 에서 데이터를 다운로드 받습니다.
+  * 인체치수조사 보고서를 선택해서 데이터를 다운로드 합니다.
+  * 로그인해야 다운로드 받을 수 있습니다. 
+  * PPT를 참고합니다.
+  * 서버 문제로 다운로드가 안 되는 경우가 있습니다.
+* 성별, 키, 몸무게, 발직선길이 데이터를 사용하도록 엑셀 데이터를 처리합니다.
+* 열이름을 성별, 키, 몸무게, 신발 사이즈로 바꿉니다.
+* 엔트리로 쉽게 데이터를 불러올 수 있도록 1000행 이후의 데이터는 삭제합니다.
+* 우리 사용하려는 인공지능 모델은 숫자만 입력할 수 있습니다.
+* 남성은 1로, 여성은 2로 바꿉니다.
+  * 성별 전체를 선택하고 ```찾기 및 선택``` 버튼을 선택하고 ```바꾸기``` 버튼을 클릭해서 바꿉니다.
+  * ```모두 바꾸기```를 선택해서 바꿉니다.
+* 엑셀에서 함수를 사용할 수 있도록 셀서식을 일반으로 바꿉니다.
+* 키를 cm로 바꿉니다. ```=ROUND(C2/10, 0)``` 함수를 사용합니다. 10을 나누고 일의 자리까지 반올림합니다.
+* 신발 크기를 5단위로 정합니다. ```=MROUND(F2, 5)``` 함수를 사용합니다. 숫자를 가까운 5의 배수로 바꿉니다. 238이라면 240이 됩니다.
+* 테이블을 추가합니다.
+* 히스토그램으로 시각화 해보겠습니다. 
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/1f51a290-74db-4bfe-a761-424a5c31934a)
+* 파일을 올립니다.   
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/f4fce0e0-8cdc-431d-bb04-a1741c4851d8)
+* 히스토그램 설정을 합니다.
+* 계급수를 늘려봅니다.   
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/15ae4e58-22a3-48fd-8314-4480b9785c28)
+* 분류를 선택합니다.   
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/d8fd0c26-9566-4fac-bd13-995a91292355)
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/c78d65ee-6696-4045-9205-e22d6bde6026)
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/219454de-8695-4a2d-8e13-252e43155adb)
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/1f39c890-e780-4d68-9197-42cd3f6ad61f)
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/51a9736e-3686-4169-b089-d668269b7d37)
+* 이웃 개수의 개념을 이해합니다.
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/322b1946-91bd-4583-9dfe-1425ffc05e00)
+* 학습을 합니다.
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/8a550187-d483-4515-862c-0b6906676e26)
+* 완성된 작품 : http://naver.me/5IFdXPHl   
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/329f0278-421c-467f-8565-46d1b33fa0c9)
+* 값을 묻고 대답한 값으로 예측을 합니다.   
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/70fb0df6-19a5-4c5b-8c51-ad2bdf61f14f)
 
+# 우리나라 인구수 예측하기
+* 미래의 인구수를 예측하는 프로그램을 만들어보겠습니다.
+* 국가통계포털사이트(https://kosis.kr/index/index.do) 에 들어갑니다.
+* ```국내통계 > 주제별 통계```를 순서대로 클릭합니다.   
+![image](https://github.com/itple-sw/entry-data/assets/76088532/a60bc897-f0cb-4ec5-8808-424d0abeba02)
+* ```인구```를 선택합니다.
+* ```인구총조사```를 선택합니다.
+* ```총조사인구 총괄(1925년~2010년)```를 선택합니다.
+* ```총조사인구 총괄(시도/성/연령별)```를 선택합니다.   
+![image](https://github.com/itple-sw/entry-data/assets/76088532/cd756de0-9a3e-4118-98c0-02635f210441)
+* 조회설정을 선택합니다.
+* 항목에서 인구만 선택합니다.
+* 행정구역별에서 전국만 선택합니다.
+* 연령별에서 계를 선택합니다. 
+* 시점은 1925년부터 2010까지 선택합니다.   
+![image](https://github.com/itple-sw/entry-data/assets/76088532/9023b139-a809-4644-8292-43c14d3bfbde)
+* 조회를 선택합니다.
+* ```행렬전환```을 선택합니다.
+* 아래와 같이 바꿉니다.   
+![image](https://github.com/itple-sw/entry-data/assets/76088532/0e2e6636-8422-4ee3-8f27-a45d4c724793)
+* 시점을 기준으로 오름차순으로 정렬합니다.    
+![image](https://github.com/itple-sw/entry-data/assets/76088532/542a44b7-1bdb-413e-a862-11625b28dab7)
+* 엑셀 파일을 다운로드 합니다.
+* 1992~2020 총인구 데이터로 다운로드 받겠습니다.
+* ```주민등록인구현황 > 행정구역별 성별 인구수```를 선택합니다.   
+![image](https://github.com/itple-sw/entry-data/assets/76088532/cdef79d3-84e6-420c-8328-ea5859ef11e2)
+* 2011년부터 2022까지 전국 총인구수 데이터를 다운로드 받습니다.
+* 두 엑셀 파일을 합칩니다.
+* 시점과 총인구수만 남기만 열을 삭제합니다.
+* 엑셀 파일을 엔트리로 업로드하겠습니다.
+* ```데이터 분석 > 테이블 불러오기```를 선택합니다.
+* ```테이블 추가하기```를 선택합니다.    
+![image](https://github.com/itple-sw/entry-data/assets/76088532/f0ef5566-17cb-44ee-a0b7-7beb2856fb45)
+* 엑셀 파일을 업로드합니다. 
+![image](https://github.com/itple-sw/entry-data/assets/76088532/8a02a730-7dbc-486b-8b61-c4d87e7ab625)
+* 오른쪽 위에 ```추가하기```를 선택합니다. 
+![image](https://github.com/itple-sw/entry-data/assets/76088532/064930a3-0806-4aba-8cae-8408d4d7e258)
+* 차트를 그려서 데이터를 시각화합니다.
+* ```적용하기```를 선택합니다.   
+![image](https://github.com/itple-sw/entry-data/assets/76088532/9140cfee-5bd3-44ba-91fd-ea3379ad2d52)
+* 데이터를 업로드하고 시각화합니다.   
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/9a1450e9-c220-4f52-8df2-35c59d1f115b)
+* 예측 모델을 사용합니다.
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/5d597147-1e43-493b-b927-cb81ed6c8864)
+* 선형회귀 방법을 사용합니다. 데이터를 가장 잘 표현하는 직선을 구하는 것입니다.   
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/2ab91b0b-c694-4f37-b928-3723a174b379)
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/cfcb23e5-9198-498d-8744-8f7818f2d0a2)
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/1916d250-be62-4785-bf74-522c92503b70)
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/d7eca115-f1b5-46dd-a582-bd5b4d453bef)
+* 완성된 작품 : http://naver.me/FmgD3XID
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/1a40ffc7-c467-41fa-a4d4-9ea1e24ce1b7)
+* 연도를 입력하면 인구수를 예측해줍니다.
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/9a034415-bd43-4538-a1c1-466fdffd0f96)
 
-
-
-
-
-
-
-
-
-
-
+# 타이타닉 생존자 예측하기
+* ```타이타닉 데이터셋 다운로드```라고 검색합니다.
+* kaggle 사이트에 들어가서 회원가입을 합니다.
+* 데이터를 다운로드 받습니다.   
+![image](https://github.com/itple-sw/entry-data/assets/76088532/55ba5251-8647-44fd-9cde-1cd2a22a6882)
+* 빈 칸에 값을 넣습니다. 나이의 경우 평균 나이를 입력합니다.
+* 결정 트리를 선택합니다.   
+![image](https://github.com/itple-sw/entry-data/assets/76088532/c0315c36-c8cd-486f-88c9-f8798c6468d3)
