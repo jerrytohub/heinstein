@@ -154,32 +154,35 @@
 * 구글 스프레드시트를 공유합니다.   
 ![image](https://github.com/jerrytohub/heinstein/assets/127598703/c726588d-052b-4aea-9243-68d154e833fd)
 * https://docs.google.com/spreadsheets/d/13eFxkZtGxsBpkgoWCoE3ST9c9xc1wFPt7jT4qWAS4qw/edit?usp=sharing
+* 복사한 링크에서 마지막 부분을 수정합니다.
+* edit?usp=sharing → export?format=csv
+* 그러면 csv 파일로 다운로드 받을 수 있습니다. 
+* https://docs.google.com/spreadsheets/d/13eFxkZtGxsBpkgoWCoE3ST9c9xc1wFPt7jT4qWAS4qw/export?format=csv
 * 프로젝트를 만듭니다.   
 ![image](https://github.com/jerrytohub/heinstein/assets/127598703/367f254d-3a4f-475c-b619-a118fb9c29be)
-* ChartMaker를 선택합니다.
+* 앱 인벤터 확장기능에 대한 정보와 내려받을 수 있는 링크를 제공하는 사이트에 접속합니다.
+  * https://puravidaapps.com/
+* ChartMaker Extension를 검색해서 선택합니다.   
 ![image](https://github.com/jerrytohub/heinstein/assets/127598703/9972af14-cae3-421b-a9a9-e98731d01188)
 * aix 파일을 다운로드합니다.
 ![image](https://github.com/jerrytohub/heinstein/assets/127598703/94af6f15-5ab5-4dcc-b3e7-952d509d9929)
 * 확장기능을 추가하고 aix 파일을 업로드해서 import합니다.
 ![image](https://github.com/jerrytohub/heinstein/assets/127598703/cf546e04-cf56-45f3-bd00-2db1867d3cbe)
 * 컴포넌트를 추가합니다.
+* 구글 스프레드시트와 연결하려면 웹 컴포넌트가 필요합니다.
 ![image](https://github.com/jerrytohub/heinstein/assets/127598703/598fc953-9cca-427b-9465-3d8fcf1ab41e)
 * 속성을 바꿉니다.
 ![image](https://github.com/jerrytohub/heinstein/assets/127598703/6f1d60bd-3a72-4fa7-aede-8805073273a4)
 ![image](https://github.com/jerrytohub/heinstein/assets/127598703/7f53f12a-288e-4dbb-8839-2760c965fc30)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* 웹1 URL에 수정한 구글 스프레드시트 링크를 넣습니다.   
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/71a951c2-3585-473a-9d9a-e842e623f97b)
+* 데이터로 그래프를 그리는 방법을 알아보겠습니다.   
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/d01690c5-d9ad-4cc3-8b25-be1fcb6a6757)
+* 버튼을 클릭하면 리스트의 데이터르 그래프를 그립니다.     
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/698c6fe3-1c9f-44af-9a0a-a166326c05b6)
+* 앱을 확인합니다.   
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/700a2f7d-5d64-48e6-abc2-2a6ebd39e325)
+* 구글 스프레드시트에서 데이터를 가져와서 그래프를 그려보겠습니다.
+* 버튼을 클릭하면 웹에서 데이터를 가져옵니다.
+* 웹에서 텍스트를 받으면 CSV를 리스트로 바꿔서 사용합니다.   
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/2a1b5c9f-c496-4861-84e9-ed955c10a8d9)
