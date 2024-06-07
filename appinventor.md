@@ -62,22 +62,13 @@
 ![image](https://github.com/jerrytohub/heinstein/assets/127598703/ee6dc229-1e46-4db3-89bf-22de786b70c8)
 ![image](https://github.com/jerrytohub/heinstein/assets/127598703/19d75d1a-423b-49fe-942d-bbeaf5cef1b8)
 ![image](https://github.com/jerrytohub/heinstein/assets/127598703/85816937-a7ae-4b2e-af6f-cb95db6140e4)
-
-* 노트북과 스마트폰이 같은 와이파이를 사용하는 경우 AI 컴패니언을 사용해서 확인을 쉽게 할 수 있습니다.
+* 노트북과 스마트폰이 같은 와이파이를 사용하는 경우 AI 컴패니언을 사용해서 확인을 쉽게 할 수 있습니다.   
 ![image](https://github.com/jerrytohub/heinstein/assets/127598703/a3616094-e8a1-49b6-b932-4c6de49d80f3)
 * 와이파이 사용이 어려운 경우 apk로 빌드하고 QR 코드를 찍어서 스마트폰에 앱을 설치할 수 있습니다.
 * 무시하고 다운로드를 합니다.
 * 무시하고 설치를 합니다.
-* 검사 없이 설치를 합니다.
+* 세부 정보 더 보기를 선택합니다. 검사 없이 설치를 합니다.   
 ![image](https://github.com/jerrytohub/heinstein/assets/127598703/75cf9af9-7691-4c05-a264-792027993811)
-
-
-
-
-
-
-
-
 
 
 # 인공지능을 사용해서 얼굴 꾸미기 앱 만들기
