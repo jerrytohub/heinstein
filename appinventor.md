@@ -73,59 +73,58 @@
 ![image](https://github.com/jerrytohub/heinstein/assets/127598703/75cf9af9-7691-4c05-a264-792027993811)
 
 # 인공지능을 사용해서 얼굴 꾸미기 앱 만들기
+* MediaPipe 인공지능을 사용해서 얼굴 꾸미기 앱을 만들겠습니다.   
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/47a244d5-bc08-4937-9785-b5906883a13e)
 * FaceExtension을 사용해서 얼굴필터앱을 만들겠습니다.
 * https://youtu.be/Or6lFyo3phU   
 ![image](https://github.com/itple-sw/appinventer/assets/76088532/68c8b573-a8ad-40ee-b64d-c34c81bba936)
-* 얼굴을 인식하고 이마 양쪽에 귀 사진이 나오고, 코에 수염 사진이 나오도록 하겠습니다.
+* 얼굴을 인식하고 이마 양쪽에 귀 사진이 나오고, 코에 수염 사진이 나오도록 하겠습니다.   
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/cf53d874-cef0-4070-9b82-b2e0e03321cf)
 * 스마트폰의 운영체제나 기종에 따라서 작동하지 않을 수 있습니다.
 * 프로젝트를 시작합니다. FaceMesh라고 이름을 정합니다.
 * FaceMesh를 실행하려면 웹뷰어가 필요합니다.
 * 캔버스를 사용하면 여러 가지 그림을 그릴 수 있고, 사진(이미지 스프라이트)를 움직일 수 있습니다.
 * 웹뷰, 캔버스, FaceExtension의 크기가 같아야 얼굴을 쉽게 인식할 수 있습니다.
-* https://github.com/mit-cml/yrtoolkit/tree/master/yr/images/facemesh/imageLibrary 에서 고양이 사진을 다운로드 받습니다.
+* https://github.com/mit-cml/yrtoolkit/tree/master/yr/images/facemesh/imageLibrary 에서 고양이 사진을 다운로드 받습니다.   
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/d947a056-6294-4a57-9899-ad994edeeab5)
 * ```도움말 > 확장기능```을 클릭하고 Facemesh.aix 파일을 다운로드 받습니다. 확장기능 추가하기를 클릭하고 Facemesh.aix 파일을 import(가져오기)합니다. 파일을 가져오는데 시간이 걸립니다.   
 ![image](https://github.com/itple-sw/appinventer/assets/76088532/c7a7edb8-528b-48e7-9b8d-61364d650302)
-* 캔버스에 보이는 사진을 스마트폰에 저장합니다.
-* Screen1 속성에서 수평정렬 가운데로 합니다.
-* 그리기 & 애니메이션에서 캔버스 컴포넌트를 추가합니다.   
-![image](https://github.com/itple-sw/appinventer/assets/76088532/5f13c688-7bb7-4f7a-abb6-07107cc375cd)
-* 캔버스1의 높이와 너비를 350픽셀로 합니다.   
-![image](https://github.com/itple-sw/appinventer/assets/76088532/0daea1dc-75b4-44e0-9caa-2acb90ac018f)
-* 캔버스에 이미지스프라이트를 3개 추가합니다. 이름을 왼쪽귀, 오른쪽귀, 수염으로 정합니다.
-![image](https://github.com/itple-sw/appinventer/assets/76088532/97859295-7429-46a1-b5e1-48c70e420bdd)
-* 미디어에 고양이 사진을 업로드합니다.   
-![image](https://github.com/itple-sw/appinventer/assets/76088532/a89016a3-f1bd-41ad-9746-62423497df50)
-* 이미지스프라이트의 사진을 정합니다.
-* 왼쪽귀와 오른쪽귀는 높이와 너비를 200픽셀로 합니다.
-* 수염은 높이를 자동으로 하고 너비를 300픽셀로 합니다.   
-![image](https://github.com/itple-sw/appinventer/assets/76088532/e6b1ee9b-7889-438f-9985-9ce9cd2542d6)
-* 수평배치를 사용해서 가운데 정렬합니다. 사진찍기 버튼을 만듭니다. 이름을 사진찍기로 정합니다.   
-![image](https://github.com/itple-sw/appinventer/assets/76088532/66624141-f6d9-4681-bc79-c11974086c67)   
-![image](https://github.com/itple-sw/appinventer/assets/76088532/b9aac4a5-4de5-47e7-a277-72c97cf487eb)
-* 웹뷰어를 가져옵니다. 속성을 바꿔서 보이지 않도록 합니다. 높이와 너비를 캔버스와 같게 350픽셀로 정합니다.
-* 확장기능에서 FaceExtension을 추가합니다. 높이와 너비를 캔버스와 같게 350픽셀로 정합니다.  
-![image](https://github.com/itple-sw/appinventer/assets/76088532/96168f1a-a05a-4b0d-97a4-8ae901052305)
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/18f82cda-b9eb-4e9c-98d6-4e490426578e)
+* 컴포넌트를 추가합니다.   
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/006d6f5d-a1d6-424e-8b22-419df0c18a82)
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/0934598c-000c-4c78-bbea-23d76be57a70)
+* 고양이 귀와 수염 사진을 업로드하고 컴포넌트 이름을 바꿉니다.   
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/0339b28c-ba9f-4cd6-b6ed-b03df1287e09)
+* 속성을 정합니다.   
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/6291a2fe-208d-4a32-97ee-7eada41ad586)
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/bcc554cc-298b-42b9-a7c0-8d787520f833)
+* 웹뷰어는 높이와 너비를 캔버스와 같게 합니다.
+* FaceExtension을 추가합니다. 높이와 너비를 캔버스와 같게 합니다.
 * 추가한 웹뷰어를 선택합니다.   
-![image](https://github.com/itple-sw/appinventer/assets/76088532/d41a7635-892a-4ee7-bc46-b24fe2debb1d)
-* 미디어에서 음성변환 컴포넌트를 추가합니다.   
-![image](https://github.com/itple-sw/appinventer/assets/76088532/9ef952f1-bc9a-4286-8dd0-2ede1671bfac)
-* 사진을 찍을 때마다 다른 이름으로 저장하기 위해서 ```사진개수``` 변수를 만듭니다. 1로 정합니다. 사진을 찍을 때마다 1씩 커집니다.   
-![image](https://github.com/itple-sw/appinventer/assets/76088532/c6198fdd-73ba-497d-b8a2-dbdc8112cd4a)   
-![image](https://github.com/itple-sw/appinventer/assets/76088532/db0233aa-ca0d-4be2-9fcf-4496f3191c26)
-* 얼굴인식하고 좌표(위치)를 계산해서 이미지스프라이트의 좌표를 정합니다.   
+* 얼굴을 인식하고 좌표(위치)를 계산해서 이미지스프라이트의 좌표를 정합니다.   
 ![image](https://github.com/itple-sw/appinventer/assets/76088532/8153052e-9df7-42b5-93e1-c6b35834d58a)
-* ```이미지 배치``` 함수는 이미지의 중심을 얼굴에 위치하도록 합니다.
-* 이미지스프라이트는 왼쪽 위를 기준으로 좌표를 정합니다.
-* 왼쪽귀는 얼굴좌표에서 이미지스프라이트의 가로 또는 세로의 반을 빼서 좌표를 정합니다.
+* ```이미지 배치``` 함수를 만듭니다.
+* 얼굴좌표에서 이미지스프라이트의 가로와 세로의 반을 빼서 좌표를 정합니다.
 * 인자를 추가해서 함수를 만들 수 있습니다.   
-![image](https://github.com/itple-sw/appinventer/assets/76088532/20b6ff55-5d16-497e-a8e3-0590b858c7d0)
-* 블록 메뉴에서 모든 컴포넌트를 선택합니다. 여러 개의 같은 종류의 컴포넌트를 코딩할 때 사용합니다. 모든이미지스프라이트를 선택합니다.   
-![image](https://github.com/itple-sw/appinventer/assets/76088532/d4661a83-6e15-422e-979f-0c7606f6a3d7)   
-![image](https://github.com/itple-sw/appinventer/assets/76088532/a2c09d18-000e-4f2e-adfd-5b16c013290a)
-* 정해진 좌표로 이동하는 함수를 만듭니다.   
-![image](https://github.com/itple-sw/appinventer/assets/76088532/9b54eafe-4c9f-4f2f-bb48-0a85b659f15e)
-* 얼굴 크기에 따라서 이미지 크기가 바뀌는 함수를 만듭니다.   
-![image](https://github.com/itple-sw/appinventer/assets/76088532/305c3e69-f273-4b42-adef-58e3ea01e453)
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/67de9554-ec32-44e7-8f9c-5e2a84f1b4cb)
+* 모든 이미지 스프라이트를 선택합니다.   
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/918e1bc4-cb1d-4654-92e0-c24857dc655c)
+* 좌표를 계산합니다.   
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/82698257-6bdc-4f3b-9138-5b44ab427328)
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/521227a9-8b63-40fb-9bbc-46daaf6f4ab9)
+* 1번째는 x 좌표이고 2번째는 y 좌표입니다.      
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/0ca306a3-18dc-4e0d-8756-8d885f7d0378)
+* 정해진 좌표로 이동시키는 함수를 만듭니다.
 * 얼굴을 인식하면 이미지가 얼굴을 따라가도록 합니다.   
-![image](https://github.com/itple-sw/appinventer/assets/76088532/fbb2bc8a-9012-442e-83d6-3fd6ed8e8b32)
-* 다른 버튼을 추가해서 귀와 수염 이미지가 바뀌도록 합니다.
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/e857c9c5-cdf4-4187-9663-7b6c4e261c16)
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/86ba8714-f349-49da-a79a-e18900905616)
+* 크기를 정하는 함수를 만듭니다.   
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/fb77d30e-0f98-4a7c-a3fb-f54c710ced96)
+* 얼굴에 표시합니다.   
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/05933a78-5de0-4282-b0f4-37d57c4dd416)
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/ac243e80-c9fe-4c00-8ce2-7c08641a1311)
+* 전역 변수를 만듭니다.   
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/90e2e0b0-a0f4-492e-b564-b6e4d954b2e4)
+* 버튼 클릭했을 때 실행할 것을 코딩합니다.   
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/499108be-048c-403a-b355-35907453f7eb)
+* 앱을 확인합니다.
