@@ -102,19 +102,19 @@
 * 웹뷰어는 높이와 너비를 캔버스와 같게 합니다.
 * FaceExtension을 추가합니다. 높이와 너비를 캔버스와 같게 합니다.
 * 추가한 웹뷰어를 선택합니다.   
-* 얼굴을 인식하고 좌표(위치)를 계산해서 이미지스프라이트의 좌표를 정합니다.   
+* 얼굴을 인식하고 좌표(위치)를 계산해서 이미지 스프라이트의 좌표를 정합니다.   
 ![image](https://github.com/itple-sw/appinventer/assets/76088532/8153052e-9df7-42b5-93e1-c6b35834d58a)
 * ```이미지 배치``` 함수를 만듭니다.
 * 얼굴좌표에서 이미지스프라이트의 가로와 세로의 반을 빼서 좌표를 정합니다.
 * 인자를 추가해서 함수를 만들 수 있습니다.   
-![image](https://github.com/jerrytohub/heinstein/assets/127598703/67de9554-ec32-44e7-8f9c-5e2a84f1b4cb)
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/dc3d4d04-2af5-43f1-a06f-d5c93875b360)
 * 모든 이미지 스프라이트를 선택합니다.   
 ![image](https://github.com/jerrytohub/heinstein/assets/127598703/918e1bc4-cb1d-4654-92e0-c24857dc655c)
 * 좌표를 계산합니다.   
 ![image](https://github.com/jerrytohub/heinstein/assets/127598703/82698257-6bdc-4f3b-9138-5b44ab427328)
 ![image](https://github.com/jerrytohub/heinstein/assets/127598703/521227a9-8b63-40fb-9bbc-46daaf6f4ab9)
 * 1번째는 x 좌표이고 2번째는 y 좌표입니다.      
-![image](https://github.com/jerrytohub/heinstein/assets/127598703/0ca306a3-18dc-4e0d-8756-8d885f7d0378)
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/78600508-1448-483a-9e94-cc73b982ddec)
 * 정해진 좌표로 이동시키는 함수를 만듭니다.
 * 얼굴을 인식하면 이미지가 얼굴을 따라가도록 합니다.   
 ![image](https://github.com/jerrytohub/heinstein/assets/127598703/e857c9c5-cdf4-4187-9663-7b6c4e261c16)
@@ -129,3 +129,7 @@
 * 버튼 클릭했을 때 실행할 것을 코딩합니다.   
 ![image](https://github.com/jerrytohub/heinstein/assets/127598703/499108be-048c-403a-b355-35907453f7eb)
 * 앱을 확인합니다.
+* 필터를 바꾸는 기능을 추가합니다.
+* 다른 사진을 업로드합니다.   
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/7d50eaa0-37bb-4592-8ec7-feb83f91a085)
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/cb6a86fd-a7f1-441a-84d6-345ad845283e)
