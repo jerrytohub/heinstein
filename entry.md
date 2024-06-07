@@ -12,13 +12,31 @@
   * 마우스 오른쪽 버튼을 클릭하면 여러 메뉴가 나옵니다. 
 ![image](https://github.com/jerrytohub/heinstein/assets/127598703/6d4e5e85-0387-4588-9183-f88abfaf5e55)
 * 데이터 시각화하기
+* 차트를 선택하고 더하기 아이콘을 클릭합니다.
+* 막대 그래프를 선택합니다.
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/88f91308-4756-49f0-be19-8879254a1a08)
 ![image](https://github.com/jerrytohub/heinstein/assets/127598703/e8c03aa3-2083-4bd5-96af-c435a93359ee)
 * 가로축은 연도로, 계열은 연평균으로 선택하기
 ![image](https://github.com/jerrytohub/heinstein/assets/127598703/d382bed9-47eb-4ccc-9cfa-602b1788b785)
+* 선 그래프로 선택해봅니다. 
 * 정보를 클릭하면 평균, 표준편차, 최댓값, 중간값, 최솟값 등을 알 수 있습니다.
+* 가장 기온이 높을 때는 언제인가요?
 ![image](https://github.com/jerrytohub/heinstein/assets/127598703/f099415f-87ae-4a1d-b942-8cf31c67e0b7)
 * 적용하기를 클릭하고 다앙한 블록을 사용해서 코딩할 수 있습니다.
 ![image](https://github.com/jerrytohub/heinstein/assets/127598703/47883fdb-b7ad-487f-a0a7-1715e7c4224a)
+
+# 월전체 강수량 데이터
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/e6a1ff46-1c86-4dfc-9ccb-40d2747812c2)
+* 비가 가장 많이 내리는 지역은 어디일까요?
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/69ba9dc1-c19a-46a9-8bb7-b66bcb0d53be)
+* 필요한 데이터와 필요하지 않은 데이터는 무엇일까요?
+![image](https://github.com/jerrytohub/heinstein/assets/127598703/6665bc97-7bb3-48a8-9ea5-6053d0fc64dc)
+* 데이터 다듬기
+ * 필요 없는 데이터는 삭제합니다. 
+ * 비워진 데이터는 값을 넣어주거나 열 또는 행을 삭제합니다.
+
+
+
 
 
 
