@@ -13,7 +13,7 @@
 ![image](https://github.com/jerrytohub/heinstein/assets/127598703/6d4e5e85-0387-4588-9183-f88abfaf5e55)
 * 데이터 시각화하기
 * 차트를 선택하고 더하기 아이콘을 클릭합니다.
-* 막대 그래프를 선택합니다.
+* 막대 그래프를 선택합니다.   
 ![image](https://github.com/jerrytohub/heinstein/assets/127598703/88f91308-4756-49f0-be19-8879254a1a08)
 ![image](https://github.com/jerrytohub/heinstein/assets/127598703/e8c03aa3-2083-4bd5-96af-c435a93359ee)
 * 가로축은 연도로, 계열은 연평균으로 선택하기
